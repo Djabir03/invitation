@@ -1,0 +1,150 @@
+{
+  "id": "anniversaire-adulte",
+  "nom": "Anniversaire adulte",
+  "occasion": "anniversaire",
+  "largeur": 1000,
+  "hauteur": 1400,
+  "fond": {
+    "couleur": "#12121A",
+    "photo": null,
+    "photoObligatoire": false
+  },
+  "calque": {
+    "couleur": "#D4AF37",
+    "opacite": 0.1
+  },
+  "elements": [
+    {
+      "id": "ligne-haut",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 100,
+      "y": 120,
+      "taille": { "largeur": 800, "hauteur": 2 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 1
+    },
+    {
+      "id": "ligne-bas",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 100,
+      "y": 1278,
+      "taille": { "largeur": 800, "hauteur": 2 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 1
+    },
+    {
+      "id": "halo",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 400,
+      "y": 480,
+      "taille": { "largeur": 200, "hauteur": 200 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 0.15
+    },
+    {
+      "id": "losange",
+      "type": "forme",
+      "forme": "losange",
+      "x": 470,
+      "y": 250,
+      "taille": { "largeur": 60, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 1
+    },
+    {
+      "id": "sur-titre",
+      "type": "texte",
+      "x": 200,
+      "y": 350,
+      "taille": { "largeur": 600, "hauteur": 50 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "SOIRÉE ANNIVERSAIRE",
+      "police": "Montserrat",
+      "taillePolice": 24,
+      "couleur": "#D4AF37",
+      "alignement": "centre"
+    },
+    {
+      "id": "titre",
+      "type": "texte",
+      "x": 80,
+      "y": 430,
+      "taille": { "largeur": 840, "hauteur": 220 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Les 30 ans de Malik",
+      "police": "Cinzel",
+      "taillePolice": 84,
+      "couleur": "#F5E6C8",
+      "alignement": "centre"
+    },
+    {
+      "id": "date",
+      "type": "texte",
+      "x": 150,
+      "y": 730,
+      "taille": { "largeur": 700, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Vendredi 9 octobre 2026 · 20 h",
+      "police": "Montserrat",
+      "taillePolice": 32,
+      "couleur": "#D4AF37",
+      "alignement": "centre"
+    },
+    {
+      "id": "lieu",
+      "type": "texte",
+      "x": 100,
+      "y": 820,
+      "taille": { "largeur": 800, "hauteur": 70 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Rooftop Le Panorama · Abidjan",
+      "police": "Montserrat",
+      "taillePolice": 30,
+      "couleur": "#E8DCC0",
+      "alignement": "centre"
+    },
+    {
+      "id": "message",
+      "type": "texte",
+      "x": 170,
+      "y": 960,
+      "taille": { "largeur": 660, "hauteur": 150 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Une nuit dorée pour célébrer trois décennies de souvenirs.",
+      "police": "Lora",
+      "taillePolice": 30,
+      "couleur": "#CFC3A5",
+      "alignement": "centre"
+    },
+    {
+      "id": "signature",
+      "type": "texte",
+      "x": 200,
+      "y": 1160,
+      "taille": { "largeur": 600, "hauteur": 80 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "Dress code : élégant",
+      "police": "Great Vibes",
+      "taillePolice": 42,
+      "couleur": "#D4AF37",
+      "alignement": "centre"
+    }
+  ]
+}

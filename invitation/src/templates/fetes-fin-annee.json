@@ -1,0 +1,162 @@
+{
+  "id": "fetes-fin-annee",
+  "nom": "Fêtes de fin d'année",
+  "occasion": "fetes",
+  "largeur": 1000,
+  "hauteur": 1400,
+  "fond": {
+    "couleur": "#0F3D2E",
+    "photo": null,
+    "photoObligatoire": false
+  },
+  "calque": {
+    "couleur": "#C8102E",
+    "opacite": 0.1
+  },
+  "elements": [
+    {
+      "id": "bande-rouge",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 80,
+      "y": 100,
+      "taille": { "largeur": 840, "hauteur": 8 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#C8102E",
+      "opacite": 1
+    },
+    {
+      "id": "bande-or",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 80,
+      "y": 1292,
+      "taille": { "largeur": 840, "hauteur": 8 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 1
+    },
+    {
+      "id": "halo-or",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 60,
+      "y": 520,
+      "taille": { "largeur": 130, "hauteur": 130 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 0.25
+    },
+    {
+      "id": "halo-rouge",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 800,
+      "y": 900,
+      "taille": { "largeur": 150, "hauteur": 150 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#C8102E",
+      "opacite": 0.35
+    },
+    {
+      "id": "losange",
+      "type": "forme",
+      "forme": "losange",
+      "x": 470,
+      "y": 210,
+      "taille": { "largeur": 60, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#D4AF37",
+      "opacite": 1
+    },
+    {
+      "id": "sur-titre",
+      "type": "texte",
+      "x": 150,
+      "y": 320,
+      "taille": { "largeur": 700, "hauteur": 50 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "VŒUX DE FIN D'ANNÉE",
+      "police": "Montserrat",
+      "taillePolice": 24,
+      "couleur": "#D4AF37",
+      "alignement": "centre"
+    },
+    {
+      "id": "titre",
+      "type": "texte",
+      "x": 80,
+      "y": 400,
+      "taille": { "largeur": 840, "hauteur": 240 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Bonne et heureuse année",
+      "police": "Playfair Display",
+      "taillePolice": 78,
+      "couleur": "#F5E6C8",
+      "alignement": "centre"
+    },
+    {
+      "id": "date",
+      "type": "texte",
+      "x": 150,
+      "y": 710,
+      "taille": { "largeur": 700, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Jeudi 31 décembre 2026 · 20 h",
+      "police": "Cormorant Garamond",
+      "taillePolice": 36,
+      "couleur": "#E8DCC0",
+      "alignement": "centre"
+    },
+    {
+      "id": "lieu",
+      "type": "texte",
+      "x": 100,
+      "y": 800,
+      "taille": { "largeur": 800, "hauteur": 70 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Maison des Fêtes · Yamoussoukro",
+      "police": "Cormorant Garamond",
+      "taillePolice": 32,
+      "couleur": "#E8DCC0",
+      "alignement": "centre"
+    },
+    {
+      "id": "message",
+      "type": "texte",
+      "x": 160,
+      "y": 950,
+      "taille": { "largeur": 680, "hauteur": 160 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Que cette nouvelle année vous apporte joie, paix et prospérité.",
+      "police": "Lora",
+      "taillePolice": 30,
+      "couleur": "#D9E8DC",
+      "alignement": "centre"
+    },
+    {
+      "id": "signature",
+      "type": "texte",
+      "x": 200,
+      "y": 1160,
+      "taille": { "largeur": 600, "hauteur": 80 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "Avec nos meilleurs vœux",
+      "police": "Great Vibes",
+      "taillePolice": 44,
+      "couleur": "#D4AF37",
+      "alignement": "centre"
+    }
+  ]
+}

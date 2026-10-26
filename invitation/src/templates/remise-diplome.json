@@ -1,0 +1,150 @@
+{
+  "id": "remise-diplome",
+  "nom": "Remise de diplôme",
+  "occasion": "diplome",
+  "largeur": 1000,
+  "hauteur": 1400,
+  "fond": {
+    "couleur": "#F5F0E4",
+    "photo": null,
+    "photoObligatoire": false
+  },
+  "calque": {
+    "couleur": "#1F3A5F",
+    "opacite": 0.07
+  },
+  "elements": [
+    {
+      "id": "cadre-haut",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 70,
+      "y": 70,
+      "taille": { "largeur": 860, "hauteur": 6 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#1F3A5F",
+      "opacite": 1
+    },
+    {
+      "id": "cadre-bas",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 70,
+      "y": 1324,
+      "taille": { "largeur": 860, "hauteur": 6 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#1F3A5F",
+      "opacite": 1
+    },
+    {
+      "id": "sceau",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 430,
+      "y": 160,
+      "taille": { "largeur": 140, "hauteur": 140 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#C9A227",
+      "opacite": 1
+    },
+    {
+      "id": "ruban",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 480,
+      "y": 280,
+      "taille": { "largeur": 40, "hauteur": 120 },
+      "rotation": 12,
+      "modifiable": false,
+      "couleur": "#1F3A5F",
+      "opacite": 1
+    },
+    {
+      "id": "sur-titre",
+      "type": "texte",
+      "x": 100,
+      "y": 440,
+      "taille": { "largeur": 800, "hauteur": 50 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "CÉRÉMONIE DE REMISE DES DIPLÔMES",
+      "police": "Cinzel",
+      "taillePolice": 26,
+      "couleur": "#1F3A5F",
+      "alignement": "centre"
+    },
+    {
+      "id": "titre",
+      "type": "texte",
+      "x": 80,
+      "y": 520,
+      "taille": { "largeur": 840, "hauteur": 180 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Promotion 2026",
+      "police": "Cinzel",
+      "taillePolice": 88,
+      "couleur": "#1F3A5F",
+      "alignement": "centre"
+    },
+    {
+      "id": "date",
+      "type": "texte",
+      "x": 150,
+      "y": 760,
+      "taille": { "largeur": 700, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Samedi 18 juillet 2026 · 16 h",
+      "police": "Lora",
+      "taillePolice": 34,
+      "couleur": "#3B4A5F",
+      "alignement": "centre"
+    },
+    {
+      "id": "lieu",
+      "type": "texte",
+      "x": 100,
+      "y": 850,
+      "taille": { "largeur": 800, "hauteur": 70 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Amphithéâtre de l'Université · Cocody",
+      "police": "Lora",
+      "taillePolice": 30,
+      "couleur": "#3B4A5F",
+      "alignement": "centre"
+    },
+    {
+      "id": "message",
+      "type": "texte",
+      "x": 160,
+      "y": 1000,
+      "taille": { "largeur": 680, "hauteur": 160 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Nous célébrons votre réussite et vous invitons à cette remise solennelle.",
+      "police": "Lora",
+      "taillePolice": 30,
+      "couleur": "#2F3B4C",
+      "alignement": "centre"
+    },
+    {
+      "id": "signature",
+      "type": "texte",
+      "x": 200,
+      "y": 1180,
+      "taille": { "largeur": 600, "hauteur": 80 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "Avec nos félicitations",
+      "police": "Great Vibes",
+      "taillePolice": 44,
+      "couleur": "#C9A227",
+      "alignement": "centre"
+    }
+  ]
+}

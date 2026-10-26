@@ -1,0 +1,162 @@
+{
+  "id": "soiree-fete",
+  "nom": "Soirée & fête",
+  "occasion": "soiree",
+  "largeur": 1000,
+  "hauteur": 1400,
+  "fond": {
+    "couleur": "#08080F",
+    "photo": null,
+    "photoObligatoire": false
+  },
+  "calque": {
+    "couleur": "#FF2E88",
+    "opacite": 0.12
+  },
+  "elements": [
+    {
+      "id": "neon-haut",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 120,
+      "y": 110,
+      "taille": { "largeur": 760, "hauteur": 4 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#00E5FF",
+      "opacite": 1
+    },
+    {
+      "id": "neon-bas",
+      "type": "forme",
+      "forme": "rectangle",
+      "x": 120,
+      "y": 1286,
+      "taille": { "largeur": 760, "hauteur": 4 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#FF2E88",
+      "opacite": 1
+    },
+    {
+      "id": "halo-rose",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 60,
+      "y": 560,
+      "taille": { "largeur": 140, "hauteur": 140 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#FF2E88",
+      "opacite": 0.35
+    },
+    {
+      "id": "halo-cyan",
+      "type": "forme",
+      "forme": "cercle",
+      "x": 800,
+      "y": 840,
+      "taille": { "largeur": 120, "hauteur": 120 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#00E5FF",
+      "opacite": 0.35
+    },
+    {
+      "id": "losange",
+      "type": "forme",
+      "forme": "losange",
+      "x": 470,
+      "y": 200,
+      "taille": { "largeur": 60, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": false,
+      "couleur": "#F9F871",
+      "opacite": 1
+    },
+    {
+      "id": "sur-titre",
+      "type": "texte",
+      "x": 200,
+      "y": 300,
+      "taille": { "largeur": 600, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "NIGHT PARTY",
+      "police": "Bebas Neue",
+      "taillePolice": 40,
+      "couleur": "#00E5FF",
+      "alignement": "centre"
+    },
+    {
+      "id": "titre",
+      "type": "texte",
+      "x": 80,
+      "y": 380,
+      "taille": { "largeur": 840, "hauteur": 180 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "FÊTE D'ÉTÉ",
+      "police": "Bebas Neue",
+      "taillePolice": 120,
+      "couleur": "#FFFFFF",
+      "alignement": "centre"
+    },
+    {
+      "id": "date",
+      "type": "texte",
+      "x": 150,
+      "y": 640,
+      "taille": { "largeur": 700, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Samedi 4 juillet 2026 · 22 h",
+      "police": "Montserrat",
+      "taillePolice": 32,
+      "couleur": "#FF2E88",
+      "alignement": "centre"
+    },
+    {
+      "id": "lieu",
+      "type": "texte",
+      "x": 100,
+      "y": 730,
+      "taille": { "largeur": 800, "hauteur": 70 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Club L'Éclipse · Abidjan",
+      "police": "Montserrat",
+      "taillePolice": 30,
+      "couleur": "#F9F871",
+      "alignement": "centre"
+    },
+    {
+      "id": "message",
+      "type": "texte",
+      "x": 160,
+      "y": 890,
+      "taille": { "largeur": 680, "hauteur": 160 },
+      "rotation": 0,
+      "modifiable": true,
+      "contenu": "Lumières néon, musique et danse jusqu'au bout de la nuit.",
+      "police": "Lora",
+      "taillePolice": 30,
+      "couleur": "#E6E6F0",
+      "alignement": "centre"
+    },
+    {
+      "id": "signature",
+      "type": "texte",
+      "x": 200,
+      "y": 1140,
+      "taille": { "largeur": 600, "hauteur": 60 },
+      "rotation": 0,
+      "modifiable": false,
+      "contenu": "ENTRÉE SUR INVITATION",
+      "police": "Bebas Neue",
+      "taillePolice": 36,
+      "couleur": "#00E5FF",
+      "alignement": "centre"
+    }
+  ]
+}
